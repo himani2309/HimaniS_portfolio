@@ -101,3 +101,58 @@ body {
     width: 100%;
   }
 }
+
+
+.about {
+  text-align: center;
+}
+
+.social-bar {
+  background-color: #45c5a7;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+}
+
+.social-bar a {
+  color: white;
+  font-size: 1.8rem;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-bar a:hover {
+  transform: scale(1.1);
+  color: #e6e6e6;
+}
+
+.about p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.cv-button {
+  margin-top: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #888;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
